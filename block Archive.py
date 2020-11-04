@@ -10,8 +10,8 @@ import sys
 from datetime import date
 
 #Paths to the MXD and Archive Geodataabse
-mxdPath = r'\\bctsdata.bcgov\data\tko_root\GIS_WORKSPACE\MLABIADH\PyMe\archive_data\archive_proj_all.mxd'
-archiveGDB = r'\\bctsdata.bcgov\data\tko_root\GIS_WORKSPACE\MLABIADH\PyMe\archive_data\Free_Growing_WO.mdb'
+mxdPath = r'..\.mxd'
+archiveGDB = r'...\.mdb'
 
 #List the FCs in the archive GDB
 arcpy.env.workspace = archiveGDB
